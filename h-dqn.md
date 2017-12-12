@@ -6,7 +6,7 @@ Link: https://arxiv.org/pdf/1604.06057.pdf
 
 ### Problem
 
-In many environments the agent is unable to learn robust, efficient policy (or value functions) due to
+In many environments the agent is unable to learn robust, efficient policy due to
 very complex environment and, in result, **inefficient exploration**.
 
 ### Solution
