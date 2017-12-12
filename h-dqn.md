@@ -1,6 +1,6 @@
 ## Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation 
 
-Link: https://arxiv.org/pdf/1604.06057.pdf
+Link: https://arxiv.org/abs/1604.06057
 
 -----
 
