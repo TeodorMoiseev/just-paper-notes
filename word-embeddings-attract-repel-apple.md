@@ -1,7 +1,7 @@
 ## Semantic Specialisation of Distributional Word Vector Spaces using Monolingual and Cross-Lingual Constraints
 
-Paper: https://arxiv.org/abs/1706.00374
-Code: https://github.com/nmrksic/attract-repel
+* Paper: https://arxiv.org/abs/1706.00374
+* Code: https://github.com/nmrksic/attract-repel
 
 -----
 
