@@ -1,6 +1,7 @@
 ## EX2: Exploration with Exemplar Models for Deep Reinforcement Learning
 
-Link: https://arxiv.org/abs/1703.01260
+1. Link: https://arxiv.org/abs/1703.01260
+2. Website: https://sites.google.com/view/ex2exploration
 
 -----
 
