@@ -10,3 +10,8 @@ Intrinsic Motivation](https://github.com/persiyanov/just-paper-notes/blob/master
 * [Semantic Specialisation of Distributional Word Vector Spaces using
 Monolingual and Cross-Lingual Constraints](https://github.com/persiyanov/just-paper-notes/blob/master/word-embeddings-attract-repel-apple.md), 2017
 * [EX2: Exploration with Exemplar Models for Deep Reinforcement Learning](https://github.com/persiyanov/just-paper-notes/blob/master/ex2-exploration-with-exemplar-models.md), 2017
+
+----
+
+# Read in 2018
+* [Optimizing Neural Networks with Kronecker-factored Approximate Curvature](https://github.com/persiyanov/just-paper-notes/blob/master/kfac.md), 2015
