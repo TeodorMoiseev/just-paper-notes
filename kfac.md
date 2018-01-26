@@ -17,7 +17,7 @@ in `>14x` fewer iterations than SGD with Momentum
 
 ### General idea of factorizing the Fisher matrix
 
-We want to perform natural gradient updates of form `dTheta = F^-1 * dL/dTheta`, where `Theta` are parameters of neural network, `F` is the Fisher Information matrix corresponding to the distribution `p(y|x, Theta)` which our network models. `L` is the loss function. To compute `F^-1` efficiently, we try to approximate it with the following steps:
+We want to perform natural gradient updates of form `dTheta = F^-1 * dL/dTheta`, where `Theta` is a neural net parameters vector, `F` is the Fisher Information matrix corresponding to the distribution `p(y|x, Theta)` which our network models. `L` is the loss function. To compute `F^-1` efficiently, we try to approximate it with the following steps:
 
 1. At first, lets rearrange parameters in `Theta` vector to `l` blocks corresponding to each layer of our feedforward net. So `Theta = [Theta_1, Theta_2, ..., Theta_l]` where `Theta_i` is the vector of parameters for layer `i`.
 2. That said, our Fisher becomes `F = E[D(Theta)D(Theta)^T]`. This is an `l` by `l` block matrix, with the `(i, j)`-th block `F_i,j` given by `F_i,j = E[vec(DW_i)vec(DW_j)^T]`.
