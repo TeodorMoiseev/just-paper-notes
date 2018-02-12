@@ -39,6 +39,12 @@ Now, the objective is defined like this ![](http://mathurl.com/y9g2m99k.png) and
 
 ### Experiments
 
-TODO
+1. **Contextual continuous-action bandit** problem with actions dimensions `m = 10, 25, 50`. With `m` increasing, the advantage of 
+deterministic policy gradient becomes more significant.
+2. **Mountain Car, Pendulum & 2D Puddle World** -- deterministic PG actor-critic consistently outperforms stochastic actor-critic analogues.
+3. **Octopus arm** -- deterministic PG is stable and achieves acceptable result over several runs.
 
 ### What things could be improved
+
+* Experiments with deep neural networks for representing policy and critic. ([DDPG paper](https://arxiv.org/abs/1509.02971))
+* Why authors did not run stochastic actor-critic algorithms on **Octopus arm**?
