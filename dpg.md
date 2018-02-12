@@ -7,7 +7,7 @@
 
 ### Problem & Idea
 
-The classic _policy gradient theorem_ is formulated for stochastic policies ![](http://mathurl.com/ybsnhmwz.png) and gives an
+The standard **policy gradient theorem** is formulated for stochastic policies ![](http://mathurl.com/ybsnhmwz.png) and gives an
 expression for policy performance gradient ![](http://mathurl.com/y8ltt3xt.png).
 
 **DPG paper** introduces the similar result but for deterministic policies of form ![](http://mathurl.com/yanduehc.png). Why
@@ -30,11 +30,15 @@ use parametrized policy. Then, update is ![](http://mathurl.com/ydd7fwzl.png).
 Here, ![](http://mathurl.com/ybe4bkah.png) is a Jacobian matrix with `dim(theta)` rows and `dim(a)` columns.
 
 4. But that's the intuition! What about the theorem? It's not obvious, but that update is correct.
-This is formulated in *policy gradient theorem for deterministic policies*. 
+This is formulated in **policy gradient theorem for deterministic policies**. 
 Now, the objective is defined like this ![](http://mathurl.com/y9g2m99k.png) and the theorem states that:
 
 ![](http://mathurl.com/ydxu5n88.png).
 
+5. Also, it turns out that **DPG theorem is the limiting case of the stochastic PG**. In practice, it leads to possibility of application of all techniques which could be applied for stochastic PG, e.g. actor-critic algorithms, natural gradient descent etc.
+
 ### Experiments
+
+TODO
 
 ### What things could be improved
