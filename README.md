@@ -10,5 +10,5 @@ Monolingual and Cross-Lingual Constraints](https://github.com/persiyanov/just-pa
 * [EX2: Exploration with Exemplar Models for Deep Reinforcement Learning](https://github.com/persiyanov/just-paper-notes/blob/master/ex2-exploration-with-exemplar-models.md), 2017
 * [Optimizing Neural Networks with Kronecker-factored Approximate Curvature](https://github.com/persiyanov/just-paper-notes/blob/master/kfac.md), 2015
 * [Deterministic Policy Gradients](https://github.com/persiyanov/just-paper-notes/blob/master/dpg.md), 2014
-* Continuous Control with Deep Reinforcement Learning (DDPG) [TODO]
+* [Continuous Control with Deep Reinforcement Learning](https://github.com/persiyanov/just-paper-notes/blob/master/dpg.md) (DDPG), 2015 [TODO]
 * Q-Prop: Sample-Efficient Policy Gradient with an Off-Policy Critic [TODO]
