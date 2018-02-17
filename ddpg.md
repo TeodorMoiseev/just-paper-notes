@@ -4,6 +4,7 @@
 
 -----
 
+[TODO!]
 * Introduced DPG. Let's apply it to deep neural nets!
 * It doesn't work if applied straightforwardly. Need to use exp replay, target nets (they are hacks for stable learning).
 * Standard Q-learning can't be applied to continuous action spaces.
