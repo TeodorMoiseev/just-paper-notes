@@ -4,22 +4,20 @@
 
 -----
 
-[TODO!]
-* Introduced DPG. Let's apply it to deep neural nets!
-* It doesn't work if applied straightforwardly. Need to use exp replay, target nets (they are hacks for stable learning).
-* Standard Q-learning can't be applied to continuous action spaces.
-* Target nets both for critic and actor (then, we generate targets from them in order to train our critic)
-* Train policy with DPG update (here we do not use target nets, but learn on samples from behaviour policy which is actually
-noisy version of our current policy)
-
-
 ### Problem & Idea
 
+D. Silver & co. introduced DPG ([my notes](https://github.com/persiyanov/just-paper-notes/blob/master/dpg.md)). After DQN has successed on Atari games it is the time for trying DPG with deep neural nets, evaluating it on MuJoCo environments. 
+
+This paper is practical, there is no new theory introduced (but, anyway, it provides the great result).
 
 ### Details
 
+* DPG doesn't work with deep nets if applied straightforwardly. Need to use exp replay, target nets (they are hacks for stable learning).
+* Several hacks have been adopted from [DQN paper](https://arxiv.org/abs/1312.5602): Target networks, Experience replay buffer. Also, batch normalization is used for faster training.
+* Target networks are used for both for critic and actor (then, we generate targets from them in order to train our critic).
+* Train policy with DPG update (here we do not use target nets, but learn on samples from behaviour policy which is actually
+noisy version of our current policy)
 
 ### Experiments
 
-
-### What things could be improved
+On several MuJoCo environments with continuous action spaces. The results show that all hacks contributes into final performance in a good way. Without them (standard DPG) performs worse.
