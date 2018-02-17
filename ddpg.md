@@ -12,7 +12,7 @@ This paper is practical, there is no new theory introduced (but, anyway, it prov
 
 ### Details
 
-* DPG doesn't work with deep nets if applied straightforwardly. Need to use exp replay, target nets (they are hacks for stable learning).
+* DPG doesn't work with deep nets if applied straightforwardly.
 * Several hacks have been adopted from [DQN paper](https://arxiv.org/abs/1312.5602): Target networks, Experience replay buffer. Also, batch normalization is used for faster training.
 * Target networks are used for both for critic and actor (then, we generate targets from them in order to train our critic).
 * Train policy with DPG update (here we do not use target nets, but learn on samples from behaviour policy which is actually
