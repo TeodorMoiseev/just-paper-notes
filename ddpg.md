@@ -18,6 +18,10 @@ This paper is practical, there is no new theory introduced (but, anyway, it prov
 * Train policy with DPG update (here we do not use target nets, but learn on samples from behaviour policy which is actually
 noisy version of our current policy)
 
+#### DDPG algorithm pseudocode
+
+![](https://image.prntscr.com/image/kPRlslstTSSWwENsCSEFUQ.png)
+
 ### Experiments
 
 On several MuJoCo environments with continuous action spaces. The results show that all hacks contributes into final performance in a good way. Without them (standard DPG) performs worse.
