@@ -46,5 +46,5 @@ deterministic policy gradient becomes more significant.
 
 ### What things could be improved
 
-* Experiments with deep neural networks for representing policy and critic. ([DDPG paper](https://arxiv.org/abs/1509.02971))
+* Experiments with deep neural networks for representing policy and critic. ([DDPG paper](https://github.com/persiyanov/just-paper-notes/blob/master/ddpg.md))
 * Why authors did not run stochastic actor-critic algorithms on **Octopus arm**?
