@@ -6,7 +6,7 @@
 
 ### Problem & Idea
 
-D. Silver & co. introduced DPG ([my notes](https://github.com/persiyanov/just-paper-notes/blob/master/dpg.md)). After DQN has succeded on Atari games it is the time for trying DPG with deep neural nets, evaluating it on MuJoCo environments. 
+Lillicrap & co. introduced DPG ([my notes](https://github.com/persiyanov/just-paper-notes/blob/master/dpg.md)). After DQN has succeded on Atari games it is the time for trying DPG with deep neural nets, evaluating it on MuJoCo environments. 
 
 This paper is practical, there is no new theory introduced (but, anyway, it provides the great result).
 
